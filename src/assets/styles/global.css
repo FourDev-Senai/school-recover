@@ -7,6 +7,38 @@
 }
 
 :root {
+  --font-family-montserrat: 'Montserrat', sans-serif;
+
+  --font-headline-1-size: 3.625rem; /*58px*/;
+  --font-headline-1-weight: 700;
+
+  --font-headline-2-size: 2.5rem; /*40px*/
+  --font-headline-2-weight: 700;
+
+  --font-headline-3-size: 1.5rem; /*24px*/
+  --font-headline-3-weight: 700;
+
+  --font-headline-4-size: 1.25rem; /*20px*/
+  --font-headline-4-weight: 400;
+
+  --font-headline-5-size: 1rem; /*16px*/
+  --font-headline-5-weight: 700;
+
+  --font-headline-6-size: 0.875rem; /*14px*/
+  --font-headline-6-weight: 700;
+
+  --font-link-size: 0.875rem; /*14px*/
+  --font-link-weight: 700;
+
+  --font-body-size: 0.875rem; /*14px*/
+  --font-body-weight: 400;
+
+  --font-body-small-size: 0.75rem; /*12ps*/
+  --font-body-small-weight: 400;
+
+  --font-button-size: 0.875rem; /*14px*/
+  --font-button-weight: 700;
+
   /* Colors Primarys */
   --color-primary-green: #96BB7C;
   --color-primary-red: #E74040;
