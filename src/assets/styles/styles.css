@@ -73,3 +73,78 @@ header {
 .btn-login:hover {
     color: var(--color-effect-hover-green);
 }
+
+main {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 85px;
+}
+
+.content-main{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    
+}
+
+.content-main > h1 {
+    width: 494px;
+    font-family: var(--font-family-montserrat);
+    font-size: var( --font-headline-1-size);
+    font-weight: var(--font-headline-1-weight);
+}
+
+
+.content-main-group-button {
+    display: flex;
+    gap: 10px;
+}
+
+.content-main-group-button >  .btn-primary{
+    width: 195px;
+    background-color: var(--color-primary-green);
+    color: var(--color-text-light-grey);
+    padding: 15px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-headline-6-weight);
+    transition: 0.2s;
+}
+
+  .btn-primary:hover {
+    background-color: var(--color-effect-hover-green);
+  }
+
+
+
+.content-main-group-button >.btn-secundary {
+    width: 195px;
+    background-color: var(--color-background-white);
+    color: var(--color-primary-green);
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: 1px solid var(--color-primary-green);
+    cursor: pointer;
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-headline-6-weight);
+    transition: 0.2s;
+}
+
+
+.btn-secundary:hover {
+    background-color: var(--color-primary-green);
+    color: var(--color-background-white);
+  }
+
+.content-main > p {
+    width: 470px;
+    font-size: var(--font-headline-4-size);
+    font-weight: var(--font-headline-4-weight);
+}
+
+
+main > .content-img  img{
+    width: 640px;
+}
