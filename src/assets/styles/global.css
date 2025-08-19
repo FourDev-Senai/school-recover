@@ -3,7 +3,10 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
   border: none;
+  color: #000000;
+  font-family: var(--font-family-montserrat);
 }
 
 :root {
@@ -55,6 +58,7 @@
   /* Colors Banckgrounds */
   --color-background-dark-blue: #2D4059;
   --color-background-white: #FFFFFF;
+  --color-background-light-grey: #FAFAFA;
   
   /* Colors Neutrals */
   --color-neutral-black: #000000;
@@ -68,6 +72,7 @@
   /* Colors Effects*/
   --color-effect-disabled-element-blue: #8EC2F2;
   --color-effect-hover-blue: #2A7CC7;
+  --color-effect-hover-green: #6b8657;
   --color-effect-alert-orange: #E77C40;
   --color-effect-sucess-grenn: #2DC071;
   --color-effect-yellow: #F3CD03;
