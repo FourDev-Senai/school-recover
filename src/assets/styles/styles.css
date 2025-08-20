@@ -148,3 +148,60 @@ main {
 main > .content-img  img{
     width: 640px;
 }
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+footer > .footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.footer-container > .footer-group-list h2{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.footer-container > .footer-group-list > ul  {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.footer-container > .footer-group-list > ul li  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+
+footer > .footer-reserved {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0px;
+    gap: 213px;
+}
+
+footer > .footer-reserved p {
+    display: flex;
+    text-align: center;
+    width: 600px;
+}
+
+footer > .footer-reserved > .footer-group-social-media {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    text-align: start;
+}
