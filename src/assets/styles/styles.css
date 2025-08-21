@@ -148,3 +148,28 @@ main {
 main > .content-img  img{
     width: 640px;
 }
+
+.expert-instruction {
+    display: flex;
+    justify-content: center;
+}
+
+.expert-instruction > .expert-card {
+    width: 328px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.expert-instruction > .expert-card > .card-img {
+    width: 72px;
+    background-color: red;
+    border-radius: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img {
+    padding: 22px;
+}
