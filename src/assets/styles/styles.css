@@ -161,7 +161,8 @@ footer {
 
 
 
-footer > .footer-container {
+
+
 
 .expert-instruction {
     margin-top: 50px;
@@ -171,7 +172,16 @@ footer > .footer-container {
     gap: 30px;
 }
 
+footer {
+    margin-top: 100px;
+}
 
+footer > .footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
 
 
 .footer-container > .footer-group-list h2{
@@ -232,7 +242,7 @@ footer > .footer-reserved > .footer-group-social-media {
     width: 236px;
     gap: 20px;
     text-align: center;
-=======
+}
 .expert-instruction > .expert-card {
     width: 328px;
     display: flex;
