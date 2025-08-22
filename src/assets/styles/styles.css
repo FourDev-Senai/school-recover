@@ -149,13 +149,90 @@ main > .content-img  img{
     width: 640px;
 }
 
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+footer > .footer-container {
+
 .expert-instruction {
     margin-top: 50px;
+
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
+
+
+
+.footer-container > .footer-group-list h2{
+    display: flex;
+    margin-bottom: 20px;
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-headline-5-size);
+    font-weight: var(--font-headline-5-weight);
+}
+
+.footer-container > .footer-group-list > ul  {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    
+}
+
+.footer-container > .footer-group-list > ul > li  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-headline-6-weight);
+    gap: 10px;
+    color: rgba(115, 115, 115, 1);
+}
+
+.email{
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-headline-6-weight);
+    gap: 0.2px;
+    width: 300px;
+} 
+
+footer > .footer-reserved {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px;
+    gap: 300px;
+}
+
+footer > .footer-reserved p {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    width: 600px;
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-headline-6-weight);
+   
+}
+
+footer > .footer-reserved > .footer-group-social-media {
+    display: flex;
+    justify-content: start;
+    width: 236px;
+    gap: 20px;
+    text-align: center;
+=======
 .expert-instruction > .expert-card {
     width: 328px;
     display: flex;
@@ -174,4 +251,5 @@ main > .content-img  img{
 
 .card-img {
     padding: 22px;
+
 }
