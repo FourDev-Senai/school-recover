@@ -563,6 +563,95 @@ main > .content-img  img{
     text-decoration: underline;
 }
 
+.section-our-courses{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 112px;
+}
+
+.content-our-courses{
+    width: 1044px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-our-courses > h6 {
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-headline-6-weight);
+    color: var(--color-primary-green);
+}
+
+.content-our-courses > h2 {
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-headline-2-weight);
+    color: var(--color-text-dark-blue);
+}
+
+.content-our-courses > p{
+    width: 580px;
+    font-size: var(--font-body-size);
+    font-weight: var(--font-body-weight);
+    color: var(--color-text-grey);
+}
+
+.group-card-profession-user {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card-profession-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 20px;
+    box-shadow: var(--effect-shadow-accentued-drop);
+}
+
+.card-profession-user > img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.card-profession-user img{
+    width: 100%;
+}
+
+.content-card-profession-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 50px;
+}
+
+.content-data-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.content-data-user h5{
+    font-size: var(--font-headline-5-size);
+    font-weight: var(--font-headline-5-weight);
+    color: var(--color-text-dark-blue);
+}
+
+.content-data-user p {
+    font-size: var(--font-body-small-size);
+    font-weight: var(--font-body-small-weight);
+    color: var(--color-text-grey);
+}
+
+.group-social-link-user{
+    display: flex;
+    gap: 20px;
+}
+
 footer {
     display: flex;
     flex-direction: column;
