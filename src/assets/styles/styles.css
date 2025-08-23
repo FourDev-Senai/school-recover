@@ -1,5 +1,5 @@
 body {
-    background-color: var(--color-background-light-grey);
+    background-color: var(--color-background-white);
 }
 
 header {
@@ -10,6 +10,7 @@ header {
     position: sticky;
 
     padding: 18px 0px;
+    background-color: var(--color-background-light-grey);
 }
 
 .logo-header h3{
@@ -78,14 +79,21 @@ main {
     display: flex;
     justify-content:center;
     align-items: center;
+    padding-bottom: 55px;
     gap: 85px;
+    
+    background-color: var(--color-background-light-grey);
 }
+
+main > .content-img  img{
+    width: 640px;
+}
+
 
 .content-main{
     display: flex;
     flex-direction: column;
     gap: 35px;
-    
 }
 
 .content-main > h1 {
@@ -93,6 +101,7 @@ main {
     font-family: var(--font-family-montserrat);
     font-size: var( --font-headline-1-size);
     font-weight: var(--font-headline-1-weight);
+    color: var(--color-text-dark-blue);
 }
 
 
@@ -117,8 +126,6 @@ main {
     background-color: var(--color-effect-hover-green);
   }
 
-
-
 .content-main-group-button >.btn-secundary {
     width: 195px;
     background-color: var(--color-background-white);
@@ -132,7 +139,6 @@ main {
     transition: 0.2s;
 }
 
-
 .btn-secundary:hover {
     background-color: var(--color-primary-green);
     color: var(--color-background-white);
@@ -142,37 +148,35 @@ main {
     width: 470px;
     font-size: var(--font-headline-4-size);
     font-weight: var(--font-headline-4-weight);
+    color: var(--color-text-grey);
 }
 
-
-main > .content-img  img{
-    width: 640px;
+.expert-instruction {  
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
 }
 
+.expert-card {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px 35px;
+}
 
+.line-card{
+    border: none; 
+    height: 2px;
+    width: 50px;
+    background-color: red;
+}
 
-
-
+.expert-card p {
+    color: var(--color-text-grey);
+}
 
 footer {
     display: flex;
     flex-direction: column;
-}
-
-
-
-
-
-
-.expert-instruction {
-    margin-top: 50px;
-
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-footer {
     margin-top: 100px;
 }
 
@@ -180,9 +184,7 @@ footer > .footer-container {
     display: flex;
     justify-content: center;
     gap: 30px;
-    
 }
-
 
 .footer-container > .footer-group-list h2{
     display: flex;
@@ -196,7 +198,6 @@ footer > .footer-container {
     display: flex;
     flex-direction: column;
     gap: 18px;
-    
 }
 
 .footer-container > .footer-group-list > ul > li  {
@@ -261,5 +262,4 @@ footer > .footer-reserved > .footer-group-social-media {
 
 .card-img {
     padding: 22px;
-
 }
