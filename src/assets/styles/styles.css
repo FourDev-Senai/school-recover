@@ -154,12 +154,12 @@ main > .content-img  img{
 .expert-instruction {  
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 30px;
     margin-top: 50px;
 }
 
 .expert-card {
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--effect-shadow-light-drop);
     padding: 40px 35px;
 }
 
