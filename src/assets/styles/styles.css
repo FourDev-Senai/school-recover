@@ -240,6 +240,211 @@ main > .content-img  img{
     color: var(--color-effect-hover-green);
 }
 
+.section-our-teachers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    padding: 160px 0px;
+    margin-top: 134px;
+    background-color: var(--color-background-light-white);
+}
+
+.content-our-teachers{
+    width: 1044px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-our-teachers > h6 {
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-headline-6-weight);
+    color: var(--color-primary-green);
+}
+
+.content-our-teachers > h2 {
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-headline-2-weight);
+    color: var(--color-text-dark-blue);
+}
+
+.content-our-teachers > p{
+    width: 580px;
+    font-size: var(--font-body-size);
+    font-weight: var(--font-body-weight);
+    color: var(--color-text-grey);
+}
+
+.group-card-our-teachers{
+    display: flex;
+    gap: 10px;
+}
+
+.card-our-teachers{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: var(--color-background-white);
+}
+
+.content-header-card {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.content-header-card > img{
+    width: 100%;
+}
+
+.content-header-card > .status {
+    position: absolute;
+    margin: 20px 10px;
+    padding: 2px 10px;
+    border-radius: 3px;
+    background-color: var(--color-primary-red);
+
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-headline-6-weight);
+    color: var(--color-text-white);
+
+    box-shadow: var(--effect-shadow-light-drop);
+}
+
+.group-btn-card-our-teachers {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    bottom: 70px;
+}
+
+.group-btn-card-our-teachers button {
+    background-color: var(--color-background-white);
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.group-btn-card-our-teachers img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.content-card-our-teachers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px 25px 35px 15px;
+}
+
+.header-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-card > .link-card {
+    font-size: var(--font-link-size);
+    font-weight: var(--font-link-weight);
+    color: var(--color-primary-green);
+
+}
+
+.evaluation-note {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+
+    border-radius: 20px;
+    background-color: var(--color-background-dark-blue);
+}
+
+.evaluation-note p {
+    font-size: var(--font-body-small-size);
+    font-weight: var(--font-body-small-weight);
+    color: var(--color-text-white);
+}
+
+.content-card-our-teachers h5{
+    font-size: var(--font-headline-5-size);
+    font-weight: var(--font-headline-5-weight);
+    color: var(--color-text-dark-blue);
+}
+
+.content-card-our-teachers :nth-child(3){
+    font-size: var(--font-body-size);
+    font-weight: var(--font-body-weight);
+    color: var(--color-text-grey);
+    width: 280px;
+}
+
+.download-sales {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.download-sales h6 {
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-headline-6-weight);
+    color: var(--color-text-grey);
+}
+
+.price-card-our-teachers{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.price-card-our-teachers h5:nth-child(1) {
+    font-size: var(--font-headline-5-size);
+    font-weight: var(--font-headline-5-weight);
+    color: var(--color-text-grey-2);
+}
+
+.price-card-our-teachers h5:nth-child(2) {
+    font-size: var(--font-headline-5-size);
+    font-weight: var(--font-headline-5-weight);
+    color: var(--color-text-orange);
+}
+
+.content-card-our-teachers a {
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-headline-6-weight);
+    color: var(--color-primary-green);
+    transition: 0.2s;
+}
+
+.card-our-teachers a {
+    display: flex;
+    align-items: center;
+    width: 144px;
+    
+    padding: 12px 10px;
+    border: solid var(--color-primary-green) 1px;
+    border-radius: 37px;
+}
+
+.card-our-teachers a > h6 {
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-headline-6-weight);
+    color: var(--color-primary-green);
+    transition: 0.2s;
+}
+
+.card-our-teachers a:hover > h6{
+    color: var(--color-effect-hover-green);
+}
+
+.card-our-teachers a:hover {
+    border: solid var(--color-effect-hover-green) 1px;
+}
+
 footer {
     display: flex;
     flex-direction: column;
