@@ -174,6 +174,33 @@ main > .content-img  img{
     color: var(--color-text-grey);
 }
 
+.statistics-school{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 80px 0px;
+}
+
+.card-stats{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 44px
+}
+
+.card-stats > h2 {
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-headline-2-weight);
+    color: var(--color-primary-green);
+}
+
+.card-stats > h5 {
+    font-size: var(--font-headline-5-size);
+    font-weight: var(--font-headline-5-weight);
+    color: var(--color-text-dark-blue);
+}
+
 footer {
     display: flex;
     flex-direction: column;
