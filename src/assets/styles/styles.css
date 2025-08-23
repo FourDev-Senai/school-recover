@@ -445,6 +445,124 @@ main > .content-img  img{
     border: solid var(--color-effect-hover-green) 1px;
 }
 
+.section-avaliation-client-matters{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    padding: 160px 0px;
+}
+
+.content-avaliation-client-matters{
+    width: 1044px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-avaliation-client-matters > h6 {
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-headline-6-weight);
+    color: var(--color-primary-green);
+}
+
+.content-avaliation-client-matters > h2 {
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-headline-2-weight);
+    color: var(--color-text-dark-blue);
+}
+
+.content-avaliation-client-matters > p{
+    width: 580px;
+    font-size: var(--font-body-size);
+    font-weight: var(--font-body-weight);
+    color: var(--color-text-grey);
+}
+
+.group-cards-note-clients {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-note-client{
+    padding-bottom: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card-note-client:hover{
+   box-shadow: var(--effect-shadow-light-drop);
+   scale: 1.01;
+}
+
+.group-star{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.star-effect {
+    transition: 0.1s;
+}
+
+.star-effect:hover{
+    scale: 1.25;
+}
+
+.feedback-card-client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 55px 83px 30px 83px ;
+}
+
+.feedback-card-client > p{
+    text-align: center;
+    width: 160px;
+
+    font-size: var(--font-body-size);
+    font-weight: var(--font-body-weight);
+    color: var(--color-text-grey);
+}
+
+.user-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.information-user{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.information-user h6{
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-headline-6-weight);
+    color: var(--color-primary-green);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.information-user h6:hover{
+    color: var(--color-effect-hover-green);
+}
+
+.information-user p{
+    font-size: var(--font-body-small-size);
+    font-weight: var(--font-body-small-weight);
+    color: var(--color-text-dark-blue);
+    cursor: pointer;
+}
+
+.information-user p:hover{
+    text-decoration: underline;
+}
+
 footer {
     display: flex;
     flex-direction: column;
