@@ -201,6 +201,45 @@ main > .content-img  img{
     color: var(--color-text-dark-blue);
 }
 
+.section-client-metter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 114px;
+}
+
+.content-client-metter {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 428px;
+}
+
+.content-client-metter > h2 {
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-headline-2-weight);
+    color: var(--color-text-dark-blue);
+}
+
+.content-client-metter > p {
+    width: 346px;
+    font-size: var(--font-body-size);
+    font-weight: var(--font-body-weight);
+    color: var(--color-text-grey);
+}
+
+.content-client-metter > a {
+    font-size: var(--font-link-size);
+    font-weight: var(--font-link-weight);
+    color: var(--color-primary-green);
+    transition: 0.2s;
+}
+
+.content-client-metter > a:hover {
+    color: var(--color-effect-hover-green);
+}
+
 footer {
     display: flex;
     flex-direction: column;
