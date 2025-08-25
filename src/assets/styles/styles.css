@@ -567,6 +567,7 @@ main > .content-img  img{
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 112px 0px;
     gap: 112px;
 }
 
