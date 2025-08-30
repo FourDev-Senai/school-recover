@@ -47,7 +47,7 @@ Brandname - School Recover é um projeto de landing page para estudantes em recu
 ## 🎨 Layout
 
 <!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
-![Mobile1](https://github.com/guimanso/quickfood-landpage/blob/master/src/assets/images/tumb-git.png)
+![Mobile1](https://github.com/FourDev-Senai/school-recover/blob/main/src/assets/images/svg/img-tumbler-readme.png)
 
 ---
 
