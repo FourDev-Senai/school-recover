@@ -89,7 +89,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Guilherme Manso Vieira</a>
  <br />
  
-<a href="(https://www.linkedin.com/in/diogolimadev)">
+<a href="https://www.linkedin.com/in/diogolimadev">
 Diogo Lima Lucas</a>
  <br />
 
