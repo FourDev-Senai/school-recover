@@ -89,7 +89,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 Guilherme Manso Vieira</a>
  <br />
  
-<a href="(https://www.linkedin.com/in/diogolimadev/)">
+<a href="(https://www.linkedin.com/in/diogolimadev)">
 Diogo Lima Lucas</a>
  <br />
 
@@ -98,5 +98,5 @@ Diogo Lima Lucas</a>
 <!-- ---------------------------------------------------------------------- -->
 Contatos: 
 
-Guilherme Manso👋🏽 [Entre em contato!](https://br.linkedin.com/in/guimanso)
-Diogo Lima Lucas👋🏽 [Entre em contato!](https://www.linkedin.com/in/diogolimadev/)
+Guilherme Manso👋🏽 [Entre em contato!](https://br.linkedin.com/in/guimanso) <br />
+Diogo Lima Lucas👋🏽 [Entre em contato!](https://www.linkedin.com/in/diogolimadev/) <br />
